@@ -35,4 +35,3 @@ const MyButton = styled.div`
   background-color: ${(props) => (props.bgColor ? props.bgColor : "yellow")};
   justify-content: ${(props) => (props.jc ? props.jc : "flex-start")};
 `;
-/* height: ${height}; */
