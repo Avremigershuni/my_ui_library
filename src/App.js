@@ -12,10 +12,11 @@ function App() {
   return (
     <>
     <Button
-      backgroundColor={"salmon"}
-      borderColor={"red"}
-      text={"hello"}
+      backgroundColor={""}
+      borderColor={""}
+      text={"Click me please!!!"}
       justifyContent={"center"}
+      shadow={""}
       functionToDisplay={trial}
     />
     <LogInForm placeholder={"Type your name"}/>

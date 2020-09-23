@@ -49,10 +49,10 @@ const LogInForm = ({ placeholder }) => {
       };
       setUsers([...users, newUser]);
       console.log(users);
+      userNameRef.current.value = "";
+      passwordRef.current.value = "";
+      confirmedPasswordRef.current.value = "";
     }
-    userNameRef.current.value = "";
-    passwordRef.current.value = "";
-    confirmedPasswordRef.current.value = "";
   };
   return (
     <Form>
@@ -83,7 +83,7 @@ const LogInForm = ({ placeholder }) => {
           log(isPasswordValid, 3);
         }}
       >
-        Register
+        Log In
       </Button>
       <AlertsArea>
         {isNameInputValid === false ? (
